@@ -17,7 +17,7 @@ const forecast = (latitude,longitude,callback) => {
             //     temprature:response.body.current.temp,
             //     weather_description:response.body.current.weather[0].description,
             // }
-            'Atmosphere:'+body.current.weather[0].description+". It is currently " + body.current.temp + " degree celcius out."
+            'Atmosphere:'+body.current.weather[0].description+". It is currently " + body.current.temp + " degree celcius out. "+ "currently total Cloudes in area: "+ body.current.clouds
             )
         }
     })
